@@ -1,3 +1,6 @@
 __pycache__
 venv/
 .env
+heroku-config vars.PNG
+heroku-postgres creds.PNG
+heroku-configvars-set.PNG
