@@ -69,6 +69,6 @@ def downgrade():
     #                 sa.ForeignKeyConstraint(['post_id'], ['00_posts.id'], name='votes_post_id_fkey', ondelete='CASCADE'),
     #                 sa.ForeignKeyConstraint(['user_id'], ['00_users.id'], name='votes_user_id_fkey', ondelete='CASCADE'),
     #                 sa.PrimaryKeyConstraint('user_id', 'post_id', name='votes_pkey')
-    )
+    # )
     op.drop_table('votes')
     # ### end Alembic commands ###
